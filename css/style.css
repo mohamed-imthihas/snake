@@ -1,0 +1,79 @@
+.container{
+	width: 508px;
+	margin: 0px auto;
+	position: relative;
+}
+.clearfix{
+	clear: both;
+}
+.gameArea{
+	border: 4px solid #4db6ac;
+	width: 500px;
+	height: 500px;
+	margin: 0px auto;
+}
+.single-row{
+	height: 10px;
+	display: table;
+}
+.cell{	
+	display: table-cell;
+	width: 10px;
+	height: 10px;
+}
+.header{
+	margin: 10px 0px;	
+}
+.header .score{
+	float: left;
+	font-size: 24px;
+}
+.header .pause-button{
+	float: right;
+}
+.pause-button button#pause{
+	background-image: url(../images/pause.png);
+	width: 30px;
+	height: 30px;
+}
+button{
+	background:none;
+	background-size: contain;
+	border: none;
+	cursor: pointer;
+}
+button:focus{
+	outline: none;
+}
+.play-button{
+	
+}
+.play-button button#play{
+	background-image: url(../images/play.png);
+	width: 150px;
+	height: 150px;
+}
+.overlay{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+.title h1{
+	font-size: 100px;
+	margin: 5px 0px;
+}
+.highscore{
+	font-size: 20px;
+	margin:5px 0px;
+}
+.hidden{
+	visibility: hidden;
+}
+.new-high-score{
+	color: red;
+}
+.play-button button#play.replay{
+	background-image: url(../images/replay.png);
+}
