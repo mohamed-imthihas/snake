@@ -1,0 +1,1 @@
+Snake is a game developed using JQuery.
